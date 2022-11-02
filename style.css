@@ -1,0 +1,102 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/* global */
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(17, 81, 5);
+}
+
+/* header */
+
+.header-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.burger-bar {
+    display: none;
+}
+
+.nav-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.nav-ul > li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.nav-ul > li {
+    font-size: 20px;
+}
+
+
+/* section 1 */
+
+.title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* flex-wrap: wrap; */
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.left {
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
+
+.right {
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+/* section 2 */
+.s-2 {
+    margin-top: 100px;
+
+}
+
+.s-2-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.s-2-wrapper > img {
+    width: 250px;
+}
